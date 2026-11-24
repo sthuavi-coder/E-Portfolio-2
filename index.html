@@ -23,8 +23,7 @@
     <section id="landing--page" onmousemove="moveBackground(event)">
       <nav>
         <figure>
-          <!-- CREATE OWN LOGO AND REPLACE HERE -->
-          <img id="personal-logo" src="./New Assets/assets/logo.svg" alt="" />
+          <img id="personal-logo" src="./New Assets/assets/LOGO.jpg" alt="" />
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link" onclick="toggleModal()">
@@ -68,13 +67,13 @@
             Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
           </p>
           <div class="social__list">
-            <a href="#" class="social__link click">
+            <a href="https://www.linkedin.com/in/siaosi-huavi-50259716b/" target="_blank" class="social__link click">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="#" class="social__link click">
+            <a href="https://github.com/sthuavi-coder" target="_blank" class="social__link click">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a href="#" class="social__link click">
+            <a href="https://docs.google.com/document/d/1pE6DYjtfx7ctOXfD2BHCpKtvdjXJxVwE6FjfuDPttl4/edit?usp=sharing" target="_blank" class="social__link click">
               <i class="fa-solid fa-file-pdf"></i>
             </a>
           </div>
@@ -109,21 +108,21 @@
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
-              <i class="fa-brands fa-html5" style="color: rgb(255, 146, 59);"></i>
+              <i class="fa-brands fa-html5" style="color: #03e2fd;"></i>
               <span class="language__name">HTML</span>
             </figure>
             <figure class="modal__language">
-              <i class="fa-brands fa-html5" style="color: rgb(255, 146, 59);"></i>
-              <span class="language__name">HTML</span>
+              <i class="fa-brands fa-css3-alt" style="color: #03e2fd;"></i>
+              <span class="language__name">CSS</span>
             </figure>
             <figure class="modal__language">
-              <i class="fa-brands fa-html5" style="color: rgb(255, 146, 59);"></i>
-              <span class="language__name">HTML</span>
+              <i class="fa-brands fa-js" style="color: #03e2fd;"></i>
+              <span class="language__name">JavaScript</span>
             </figure>
             <figure class="modal__language">
-              <i class="fa-brands fa-html5" style="color: rgb(255, 146, 59);"></i>
+              <i class="fa-brands fa-react" style="color: #03e2fd;"></i>
                <img src="" alt="">
-              <span class="language__name">HTML</span>
+              <span class="language__name">React</span>
             </figure>
           </div>
         </div>
@@ -153,15 +152,15 @@
         </div>
         
       </div>
-      <img src="./New Assets/assets/semi circle.svg" class="shape shape--0">
-      <img src="./New Assets/assets/circle.svg" class="shape shape--1">
-      <img src="./New Assets/assets/squiggly.svg" class="shape shape--2">
-      <img src="./New Assets/assets/circle.svg" class="shape shape--3">
-      <img src="./New Assets/assets/triangle.svg" class="shape shape--4">
-      <img src="./New Assets/assets/circle.svg" class="shape shape--5">
-      <img src="./New Assets/assets/squiggly.svg" class="shape shape--6">
-      <img src="./New Assets/assets/circle.svg" class="shape shape--7">
-      <img src="./New Assets/assets/semi circle.svg" class="shape shape--8">
+      <img src="./New Assets/assets/Stargate_SG·1_symbol_36.svg" class="shape shape--0">
+      <img src="./New Assets/assets/MilkyWayGlyph01.svg" class="shape shape--1">
+      <img src="./New Assets/assets/Stargate_SG·1_symbol_05.svg" class="shape shape--2">
+      <img src="./New Assets/assets/MilkyWayGlyph01.svg" class="shape shape--3">
+      <img src="./New Assets/assets/Stargate_SG·1_symbol_11.svg" class="shape shape--4">
+      <img src="./New Assets/assets/MilkyWayGlyph01.svg" class="shape shape--5">
+      <img src="./New Assets/assets/Stargate_SG·1_symbol_05.svg" class="shape shape--6">
+      <img src="./New Assets/assets/MilkyWayGlyph01.svg" class="shape shape--7">
+      <img src="./New Assets/assets/Stargate_SG·1_symbol_36.svg" class="shape shape--8">
     </section>
     <section id="projects">
       <div class="container">
@@ -172,30 +171,42 @@
           <ul class="project__list">
             <li class="project">
               <div class="project__wrapper">
+                
                 <img
-                  src="./New Assets/assets/blinker mockup.png"
+                  src="./New Assets/assets/Screenshot 2026-11-09 171005-medium.jpg"
+                  srcset="./New Assets/assets/Screenshot 2026-11-09 171005-small.jpg 480w,
+                          ./New Assets/assets/Screenshot 2026-11-09 171005-medium.jpg 1024w,
+                          ./New Assets/assets/Screenshot 2026-11-09 171005-large.jpg 1920w"
+                  sizes="(max-width: 768px) 100vw, 1024px"
                   class="project__img"
                   alt=""
+                  loading="lazy"
                 />
+                
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    Car Sales Projects
+                    Spotify Clone
                   </h3>
                   <h4 class="project__description--sub-title">
                     HTML, CSS, JavaScript, React
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum unde voluptates odio facere nemo ipsam numquam, id
-                    ducimus, illo optio accusamus assumenda sequi aut eum
-                    tempora incidunt accusantium iusto qui?
+                    An interactive, single-page music streaming application clone 
+                    that replicates the core frontend functionalities of Spotify. 
+                    This project implements a fully operational web audio architecture, 
+                    allowing users to browse music catalogs, dynamically filter 
+                    categories, and control music playback via real-time play, 
+                    pause, skip, and volume functionalities. By leveraging local 
+                    state management and browser storage, it handles dynamic data 
+                    binding for user playlists, demonstrating strong state-driven UI 
+                    development and event-handling proficiency.
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a href="https://github.com/sthuavi-coder/Clone-ify.git" target="_blank" class="project__description--link">
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
+                    <a href="https://clone-ify-lyart.vercel.app/" target="_blank" class="project__description--link">
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -204,30 +215,43 @@
             </li>
             <li class="project">
               <div class="project__wrapper">
+                
                 <img
-                  src="./New Assets/assets/blinker mockup.png"
+                  src="./New Assets/assets/Screenshot 2026-11-09 170947-medium.jpg"
+                  srcset="./New Assets/assets/Screenshot 2026-11-09 171047-small.jpg 480w,
+                          ./New Assets/assets/Screenshot 2026-11-09 171047-medium.jpg 1024w,
+                          ./New Assets/assets/Screenshot 2026-11-09 171047-large.jpg 1920w"
+                  sizes="(max-width: 768px) 100vw, 1024px"
                   class="project__img"
                   alt=""
+                  loading="lazy"
                 />
+                
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    Car Sales Projects
+                    Youtube Clone
                   </h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, Vue, Vuex
+                    HTML, CSS, JavaScript, React
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum unde voluptates odio facere nemo ipsam numquam, id
-                    ducimus, illo optio accusamus assumenda sequi aut eum
-                    tempora incidunt accusantium iusto qui?
+                    A fully responsive YouTube homepage replication designed to 
+                    demonstrate advanced UI layout control, component structuring, 
+                    and modern styling techniques. Built using a semantic 
+                    component-based approach, the application features a 
+                    multi-sectional grid layout for video feeds, a collapsible 
+                    navigation sidebar, and dynamic interactive elements like 
+                    fluid hover states and a functional search navbar. This project 
+                    highlights a strong command of modern CSS architecture, 
+                    pixel-perfect design accuracy, and cross-browser responsiveness 
+                    to deliver a highly intuitive and native-feeling user experience
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a href="https://github.com/sthuavi-coder/CloneTube.git" target="_blank" class="project__description--link">
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
+                    <a href="https://clone-tube-tau.vercel.app/" target="_blank" class="project__description--link">
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -236,30 +260,43 @@
             </li>
             <li class="project">
               <div class="project__wrapper">
+                
                 <img
-                  src="./New Assets/assets/blinker mockup.png"
+                  src="./New Assets/assets/Screenshot 2026-11-09 191942-medium.jpg"
+                  srcset="./New Assets/assets/Screenshot 2026-11-09 191942-small.jpg 480w,
+                          ./New Assets/assets/Screenshot 2026-11-09 191942-medium.jpg 1024w,
+                          ./New Assets/assets/Screenshot 2026-11-09 191942-large.jpg 1920w"
+                  sizes="(max-width: 768px) 100vw, 1024px"
                   class="project__img"
                   alt=""
+                  loading="lazy"
                 />
+                
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    Car Sales Projects
+                    Movie Search Website
                   </h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, Vue, Vuex
+                    HTML, CSS, JavaScript, React
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum unde voluptates odio facere nemo ipsam numquam, id
-                    ducimus, illo optio accusamus assumenda sequi aut eum
-                    tempora incidunt accusantium iusto qui?
+                    Built a dynamic, responsive movie search application 
+                    that allows users to seamlessly browse, filter, and discover 
+                    films in real-time. Leveraging a third-party movie API, 
+                    the project highlights advanced state management and 
+                    asynchronous data fetching to deliver instantaneous 
+                    search results. I prioritized performance and user 
+                    experience by implementing optimized image handling 
+                    via responsive srcset configurations, lazy loading, 
+                    and a clean, modern UI built with semantic HTML and 
+                    CSS Grid.
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a href="https://github.com/sthuavi-coder/React-Final-Moviefy.git" target="_blank" class="project__description--link">
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
+                    <a href="https://react-final-moviefy.vercel.app/" target="_blank" class="project__description--link">
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -276,7 +313,7 @@
           <figure>
             <a href="#">
               <img
-              src="./New Assets/assets/logo.svg"
+              src="./New Assets/assets/LOGO.jpg"
               class="footer__logo--img"
               alt=""
             />  
@@ -285,13 +322,13 @@
           </figure>
           <div class="footer__social--list">
             <a
-              href=""
+              href="https://github.com/sthuavi-coder"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               Github
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/in/siaosi-huavi-50259716b/"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               LinkedIn
@@ -303,7 +340,7 @@
               Email
             </a>
             <a
-              href="./New Assets/assets/David Bragg Resume.pdf" target="_blank"
+              href="https://docs.google.com/document/d/1pE6DYjtfx7ctOXfD2BHCpKtvdjXJxVwE6FjfuDPttl4/edit?usp=sharing" target="_blank"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               Resume

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* #f06449 */
+
 * {
     margin: 0;
     padding: 0; 
@@ -62,7 +64,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus {
-    border-color: #f06449;
+    border-color: #03e2fd;
 }
 
 .container {
@@ -98,7 +100,7 @@ input:focus, textarea:focus {
 }
 
 .orange {
-    color: #f06449
+    color: #03e2fd
 }
 
 .link__hover-effect {
@@ -209,7 +211,7 @@ nav,
 }
 
 .social__link {
-    background-color: #f06449;
+    background-color: #03e2fd;
     color: white;
     padding: 6px;
     width: 32px;
@@ -295,9 +297,10 @@ nav {
 }
 
 #personal-logo {
-    width: 50px;
-    height: 50px;
-    filter: invert(1)
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 8px;
 }
 
 .nav__link--list {
@@ -367,17 +370,20 @@ nav {
 }
 
 .modal__languages {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    width: 100%;
+    /* flex-wrap: wrap; */
 }
 
 .modal__language {
-    width: 25%;
+    min-width: 0;
     padding: 16px;
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+    
     transition: all 300ms ease;
 }
 
@@ -398,6 +404,19 @@ nav {
 }
 
 .fa-html5 {
+    width: 100%;
+    font-size: 70px;
+}
+
+.fa-css3-alt {
+    width: 100%;
+    font-size: 70px;
+}
+.fa-js {
+    width: 100%;
+    font-size: 70px;
+}
+.fa-react {
     width: 100%;
     font-size: 70px;
 }
@@ -427,8 +446,8 @@ nav {
 }
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: #03e2fd;
+    border: 2px solid #03e2fd;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -444,8 +463,8 @@ nav {
 }
 
 .form__submit:active {
-    border-color: #f06449;
-    color: #f06449;
+    border-color: #03e2fd;
+    color: #03e2fd;
 }
 
 .modal__overlay {
@@ -613,8 +632,8 @@ footer {
 }
 
 .footer__logo--img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .footer__social--list {
@@ -643,6 +662,10 @@ footer {
 
 .shape {
     position: fixed;
+    width: 30px;
+    height: 30px;
+    box-shadow: inset 1px 1px 15px 1px white;
+    border-radius: 50%;
 }
 
 .shape--0 {
@@ -750,3 +773,18 @@ footer {
         padding: 40px;
     }
 }
+
+
+
+
+
+
+/* <img src="./New Assets/assets/semi circle.svg" class="shape shape--0">
+      <img src="./New Assets/assets/circle.svg" class="shape shape--1">
+      <img src="./New Assets/assets/squiggly.svg" class="shape shape--2">
+      <img src="./New Assets/assets/circle.svg" class="shape shape--3">
+      <img src="./New Assets/assets/triangle.svg" class="shape shape--4">
+      <img src="./New Assets/assets/circle.svg" class="shape shape--5">
+      <img src="./New Assets/assets/squiggly.svg" class="shape shape--6">
+      <img src="./New Assets/assets/circle.svg" class="shape shape--7">
+      <img src="./New Assets/assets/semi circle.svg" class="shape shape--8"> */
